@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace NegocioFormsApp
 {
-    public partial class Form1 : Form
+    public partial class ProductosForm : Form
     {
-        public Form1()
+        public ProductosForm()
         {
             InitializeComponent();
 

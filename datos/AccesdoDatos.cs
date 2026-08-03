@@ -1,4 +1,5 @@
-﻿using System.Data;
+﻿using System;
+using System.Data;
 using System.Data.SqlClient;
 
 namespace Datos
@@ -9,20 +10,83 @@ namespace Datos
         private SqlCommand comando;
         private SqlDataReader lector;
 
-        public SqlDataReader Lector => lector;
-        public SqlConnection Conexion => conexion;   // 👈 importante
+        public SqlDataReader Lector
+        {
+            get { return lector; }
+        }
+
+        public SqlCommand Comando
+        {
+            get { return comando; }
+        }
+
+        public SqlConnection Conexion
+        {
+            get { return conexion; }
+        }
 
         public AccesoDatos()
         {
-            conexion = new SqlConnection("Server=.\\SQLEXPRESS; Database=NegocioDB; Integrated Security=True");
+            conexion = new SqlConnection("server=.\\SQLEXPRESS; database=NegocioDB; integrated security=true");
             comando = new SqlCommand();
-            comando.Connection = conexion;
         }
 
         public void AbrirConexion()
         {
-            if (conexion.State != ConnectionState.Open)
+            conexion.Open();
+        }
+
+        public void SetearConsulta(string consulta)
+        {
+            comando.CommandType = CommandType.Text;
+            comando.CommandText = consulta;
+        }
+
+        public void EjecutarLectura()
+        {
+            comando.Connection = conexion;
+
+            try
+            {
                 conexion.Open();
+                lector = comando.ExecuteReader();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        public void EjecutarAccion()
+        {
+            comando.Connection = conexion;
+
+            try
+            {
+                conexion.Open();
+                comando.ExecuteNonQuery();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+        }
+
+        public void CerrarConexion()
+        {
+            if (lector != null)
+                lector.Close();
+
+            conexion.Close();
+        }
+
+        public void SetearParametro(string nombre, object valor)
+        {
+            comando.Parameters.AddWithValue(nombre, valor);
         }
     }
 }

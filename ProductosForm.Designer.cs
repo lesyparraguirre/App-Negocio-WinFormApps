@@ -1,6 +1,6 @@
 ﻿namespace NegocioFormsApp
 {
-    partial class Form1
+    partial class ProductosForm
     {
         /// <summary>
         /// Variable del diseñador necesaria.

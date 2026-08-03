@@ -2,7 +2,6 @@ C:\Users\Les\Desktop\Aplicacion-Negocio\obj\Debug\NegocioFormsApp.csproj.Assembl
 C:\Users\Les\Desktop\Aplicacion-Negocio\obj\Debug\NegocioFormsApp.Properties.Resources.resources
 C:\Users\Les\Desktop\Aplicacion-Negocio\obj\Debug\NegocioFormsApp.csproj.GenerateResource.cache
 C:\Users\Les\Desktop\Aplicacion-Negocio\obj\Debug\NegocioFormsApp.csproj.CoreCompileInputs.cache
-C:\Users\Les\Desktop\Aplicacion-Negocio\obj\Debug\NegocioFormsApp.Form1.resources
 C:\Users\Les\Desktop\Aplicacion-Negocio\bin\Debug\NegocioFormsApp.exe.config
 C:\Users\Les\Desktop\Aplicacion-Negocio\bin\Debug\NegocioFormsApp.exe
 C:\Users\Les\Desktop\Aplicacion-Negocio\bin\Debug\NegocioFormsApp.pdb
@@ -15,5 +14,6 @@ C:\Users\Les\Desktop\Aplicacion-Negocio\bin\Debug\datos.pdb
 C:\Users\Les\Desktop\Aplicacion-Negocio\obj\Debug\NegocioF.B668E06A.Up2Date
 C:\Users\Les\Desktop\Aplicacion-Negocio\obj\Debug\NegocioFormsApp.exe
 C:\Users\Les\Desktop\Aplicacion-Negocio\obj\Debug\NegocioFormsApp.pdb
-C:\Users\Les\Desktop\Aplicacion-Negocio\obj\Debug\NegocioFormsApp.exe.config
-C:\Users\Les\Desktop\Aplicacion-Negocio\obj\Debug\NegocioFormsApp.Login.resources
+C:\Users\Les\Desktop\Aplicacion-Negocio\obj\Debug\NegocioFormsApp.ProductosForm.resources
+C:\Users\Les\Desktop\Aplicacion-Negocio\obj\Debug\NegocioFormsApp.MenuPrincipalForm.resources
+C:\Users\Les\Desktop\Aplicacion-Negocio\obj\Debug\NegocioFormsApp.LoginForm.resources

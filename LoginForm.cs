@@ -1,4 +1,5 @@
-﻿using System;
+﻿using negocio;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,9 +11,9 @@ using System.Windows.Forms;
 
 namespace NegocioFormsApp
 {
-    public partial class Login : Form
+    public partial class LoginForm : Form
     {
-        public Login()
+        public LoginForm()
         {
             InitializeComponent();
         }
@@ -29,25 +30,33 @@ namespace NegocioFormsApp
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
-            string user = txtUsuario.Text;
+            string user = txtUsuario.Text.Trim();
             string pass = txtContraseña.Text;
 
-            /**UsuarioNegocio negocio = new UsuarioNegocio();
-            Usuario u = negocio.Login(user, pass); // devuelve null si falla
+            UsuarioNegocio negocio = new UsuarioNegocio();
 
-            if (u == null)
+            bool existe = negocio.Login(user, pass);
+
+            if (existe)
+            {
+                lblError.Text = "";
+
+                MenuPrincipalForm menu = new MenuPrincipalForm();
+
+                this.Hide();
+                menu.ShowDialog();
+
+                this.Close();
+            }
+            else
             {
                 lblError.Text = "Usuario o contraseña incorrectos.";
-                return;
+
+                txtUsuario.Clear();
+                txtContraseña.Clear();
+
+                txtUsuario.Focus();
             }
-
-            // Abrir menú principal pasando el usuario logueado
-            frmMenuPrincipal menu = new frmMenuPrincipal(u);
-            this.Hide();
-            menu.ShowDialog();
-            this.Show();*/
-
-            lblError.Text = "Se dio Click en Ingresar";
         }
 
         private void Login_Load(object sender, EventArgs e)
