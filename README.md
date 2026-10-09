@@ -1,4 +1,4 @@
-# Aplicacion-Negocio
+# Aplicación-Negocio
 Se requiere una aplicación de escritorio destinada a la gestión integral de productos y ventas para un comercio. El sistema deberá ser genérico, de forma que pueda adaptarse a distintos tipos de negocios, y su información podrá ser utilizada luego por otros servicios o herramientas administrativas según sea necesario.
 
 La aplicación permitirá administrar productos y realizar el proceso completo de venta, incluyendo la generación de la boleta final y el cálculo del costo de envío.
