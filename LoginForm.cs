@@ -46,7 +46,7 @@ namespace NegocioFormsApp
                 this.Hide();
                 menu.ShowDialog();
 
-                this.Close();
+                this.Show();
             }
             else
             {

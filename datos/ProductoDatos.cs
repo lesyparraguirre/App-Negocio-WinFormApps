@@ -17,7 +17,7 @@ namespace Datos
             {
                 datos.AbrirConexion();
 
-                // 👇 Nombres EXACTOS: tabla Producto, columnas id, descripcion, precio
+                // 👇 Nombres EXACTOS: tabla Producto, columnas Id, Descripcion, precio
                 using (SqlCommand cmd = new SqlCommand(
                     "SELECT id, descripcion, precio FROM Producto",
                     datos.Conexion))
@@ -28,9 +28,9 @@ namespace Datos
                     {
                         Producto p = new Producto
                         {
-                            Id = (int)lector["id"],
-                            Descripcion = (string)lector["descripcion"],
-                            Precio = Convert.ToDecimal(lector["precio"])
+                            Id = (int)lector["Id"],
+                            Descripcion = (string)lector["Descripcion"],
+                            Precio = Convert.ToDecimal(lector["Precio"])
                         };
 
                         lista.Add(p);

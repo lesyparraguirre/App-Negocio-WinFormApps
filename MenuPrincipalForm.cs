@@ -24,7 +24,11 @@ namespace NegocioFormsApp
 
         private void button1_Click(object sender, EventArgs e)
         {
+            ProductosForm menu = new ProductosForm();
+            this.Hide();
+            menu.ShowDialog();
 
+            this.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)

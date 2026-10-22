@@ -21,9 +21,16 @@ namespace NegocioFormsApp
             var lista = negocio.ListarProductos();
 
             dataGridView2.DataSource = lista;
+
+            dataGridView2.Columns["Activo"].Visible = false;
         }
 
         private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void ProductosForm_Load(object sender, EventArgs e)
         {
 
         }

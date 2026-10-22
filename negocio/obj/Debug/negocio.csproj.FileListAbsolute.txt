@@ -9,3 +9,14 @@ C:\Users\Les\Desktop\Aplicacion-Negocio\negocio\bin\Debug\dominio.pdb
 C:\Users\Les\Desktop\Aplicacion-Negocio\negocio\obj\Debug\negocio.csproj.Up2Date
 C:\Users\Les\Desktop\Aplicacion-Negocio\negocio\obj\Debug\negocio.dll
 C:\Users\Les\Desktop\Aplicacion-Negocio\negocio\obj\Debug\negocio.pdb
+C:\Users\Les\Desktop\App-Negocio-WinFormApps\negocio\bin\Debug\negocio.dll
+C:\Users\Les\Desktop\App-Negocio-WinFormApps\negocio\bin\Debug\negocio.pdb
+C:\Users\Les\Desktop\App-Negocio-WinFormApps\negocio\bin\Debug\datos.dll
+C:\Users\Les\Desktop\App-Negocio-WinFormApps\negocio\bin\Debug\dominio.dll
+C:\Users\Les\Desktop\App-Negocio-WinFormApps\negocio\bin\Debug\datos.pdb
+C:\Users\Les\Desktop\App-Negocio-WinFormApps\negocio\bin\Debug\dominio.pdb
+C:\Users\Les\Desktop\App-Negocio-WinFormApps\negocio\obj\Debug\negocio.csproj.AssemblyReference.cache
+C:\Users\Les\Desktop\App-Negocio-WinFormApps\negocio\obj\Debug\negocio.csproj.CoreCompileInputs.cache
+C:\Users\Les\Desktop\App-Negocio-WinFormApps\negocio\obj\Debug\negocio.csproj.Up2Date
+C:\Users\Les\Desktop\App-Negocio-WinFormApps\negocio\obj\Debug\negocio.dll
+C:\Users\Les\Desktop\App-Negocio-WinFormApps\negocio\obj\Debug\negocio.pdb

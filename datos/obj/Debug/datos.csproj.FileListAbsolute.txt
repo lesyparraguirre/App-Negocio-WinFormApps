@@ -7,3 +7,12 @@ C:\Users\Les\Desktop\Aplicacion-Negocio\datos\bin\Debug\dominio.pdb
 C:\Users\Les\Desktop\Aplicacion-Negocio\datos\obj\Debug\datos.csproj.Up2Date
 C:\Users\Les\Desktop\Aplicacion-Negocio\datos\obj\Debug\datos.dll
 C:\Users\Les\Desktop\Aplicacion-Negocio\datos\obj\Debug\datos.pdb
+C:\Users\Les\Desktop\App-Negocio-WinFormApps\datos\bin\Debug\datos.dll
+C:\Users\Les\Desktop\App-Negocio-WinFormApps\datos\bin\Debug\datos.pdb
+C:\Users\Les\Desktop\App-Negocio-WinFormApps\datos\bin\Debug\dominio.dll
+C:\Users\Les\Desktop\App-Negocio-WinFormApps\datos\bin\Debug\dominio.pdb
+C:\Users\Les\Desktop\App-Negocio-WinFormApps\datos\obj\Debug\datos.csproj.AssemblyReference.cache
+C:\Users\Les\Desktop\App-Negocio-WinFormApps\datos\obj\Debug\datos.csproj.CoreCompileInputs.cache
+C:\Users\Les\Desktop\App-Negocio-WinFormApps\datos\obj\Debug\datos.csproj.Up2Date
+C:\Users\Les\Desktop\App-Negocio-WinFormApps\datos\obj\Debug\datos.dll
+C:\Users\Les\Desktop\App-Negocio-WinFormApps\datos\obj\Debug\datos.pdb
