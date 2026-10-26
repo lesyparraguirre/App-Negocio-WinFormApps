@@ -46,17 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MenuPrincipalUsuarioForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuPrincipalUsuarioForm.Designer.cs">
+      <DependentUpon>MenuPrincipalUsuarioForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ProductosForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ProductosForm.Designer.cs">
       <DependentUpon>ProductosForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="MenuPrincipalForm.cs">
+    <Compile Include="MenuPrincipalAdminForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MenuPrincipalForm.Designer.cs">
-      <DependentUpon>MenuPrincipalForm.cs</DependentUpon>
+    <Compile Include="MenuPrincipalAdminForm.Designer.cs">
+      <DependentUpon>MenuPrincipalAdminForm.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
@@ -66,11 +72,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MenuPrincipalUsuarioForm.resx">
+      <DependentUpon>MenuPrincipalUsuarioForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ProductosForm.resx">
       <DependentUpon>ProductosForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MenuPrincipalForm.resx">
-      <DependentUpon>MenuPrincipalForm.cs</DependentUpon>
+    <EmbeddedResource Include="MenuPrincipalAdminForm.resx">
+      <DependentUpon>MenuPrincipalAdminForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>

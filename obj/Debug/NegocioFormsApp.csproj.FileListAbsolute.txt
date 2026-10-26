@@ -28,7 +28,6 @@ C:\Users\Les\Desktop\App-Negocio-WinFormApps\bin\Debug\negocio.pdb
 C:\Users\Les\Desktop\App-Negocio-WinFormApps\bin\Debug\datos.pdb
 C:\Users\Les\Desktop\App-Negocio-WinFormApps\obj\Debug\NegocioFormsApp.csproj.AssemblyReference.cache
 C:\Users\Les\Desktop\App-Negocio-WinFormApps\obj\Debug\NegocioFormsApp.ProductosForm.resources
-C:\Users\Les\Desktop\App-Negocio-WinFormApps\obj\Debug\NegocioFormsApp.MenuPrincipalForm.resources
 C:\Users\Les\Desktop\App-Negocio-WinFormApps\obj\Debug\NegocioFormsApp.LoginForm.resources
 C:\Users\Les\Desktop\App-Negocio-WinFormApps\obj\Debug\NegocioFormsApp.Properties.Resources.resources
 C:\Users\Les\Desktop\App-Negocio-WinFormApps\obj\Debug\NegocioFormsApp.csproj.GenerateResource.cache
@@ -36,3 +35,5 @@ C:\Users\Les\Desktop\App-Negocio-WinFormApps\obj\Debug\NegocioFormsApp.csproj.Co
 C:\Users\Les\Desktop\App-Negocio-WinFormApps\obj\Debug\NegocioF.B668E06A.Up2Date
 C:\Users\Les\Desktop\App-Negocio-WinFormApps\obj\Debug\NegocioFormsApp.exe
 C:\Users\Les\Desktop\App-Negocio-WinFormApps\obj\Debug\NegocioFormsApp.pdb
+C:\Users\Les\Desktop\App-Negocio-WinFormApps\obj\Debug\NegocioFormsApp.MenuPrincipalAdminForm.resources
+C:\Users\Les\Desktop\App-Negocio-WinFormApps\obj\Debug\NegocioFormsApp.MenuPrincipalUsuarioForm.resources

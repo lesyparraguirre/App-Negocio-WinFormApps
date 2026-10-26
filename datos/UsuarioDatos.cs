@@ -1,4 +1,5 @@
 ﻿using Datos;
+using dominio;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -11,19 +12,38 @@ namespace datos
 {
     public class UsuarioDatos
     {
-        public bool Login(string user, string pass)
+        public Usuario Login(string user, string pass)
         {
             AccesoDatos datos = new AccesoDatos();
 
             try
             {
-                datos.SetearConsulta("SELECT * FROM Usuario WHERE nombre = @nombre AND contrasenia = @contrasenia");
+                datos.SetearConsulta(
+            @"SELECT u.Id, u.Nombre, u.IdRol, r.Descripcion
+              FROM Usuario u
+              INNER JOIN Rol r ON u.IdRol = r.Id
+              WHERE u.Nombre = @nombre
+              AND u.Contrasenia = @contrasenia");
+
                 datos.SetearParametro("@nombre", user);
                 datos.SetearParametro("@contrasenia", pass);
 
                 datos.EjecutarLectura();
+                if (datos.Lector.Read())
+                {
+                    Usuario usuario = new Usuario();
 
-                return datos.Lector.Read();
+                    usuario.Id = (int)datos.Lector["Id"];
+                    usuario.Nombre = (string)datos.Lector["Nombre"];
+
+                    usuario.Rol = new Rol();
+                    usuario.Rol.Id = (int)datos.Lector["IdRol"];
+                    usuario.Rol.Descripcion = (string)datos.Lector["Descripcion"];
+
+                    return usuario;
+                }
+
+                return null;
             }
             finally
             {

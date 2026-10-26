@@ -1,6 +1,6 @@
 ﻿namespace NegocioFormsApp
 {
-    partial class MenuPrincipalForm
+    partial class MenuPrincipalAdminForm
     {
         /// <summary>
         /// Required designer variable.
@@ -61,6 +61,7 @@
             this.Controls.Add(this.btnProductos);
             this.Name = "MenuPrincipalForm";
             this.Text = "FormMenuPrincipal";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MenuPrincipalForm_FormClosed);
             this.Load += new System.EventHandler(this.FormMenuPrincipal_Load);
             this.ResumeLayout(false);
 
